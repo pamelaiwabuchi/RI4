@@ -19,8 +19,4 @@ export class Telefone{
     getNumeroMinuscula(){
         return String(this.numero).toLowerCase();
     }
-
-    toString() {
-        return `(${this.ddd}) ${this.numero}`;
-    }
 }
